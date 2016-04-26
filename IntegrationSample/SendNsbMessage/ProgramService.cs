@@ -56,12 +56,7 @@ class ProgramService : ServiceBase
                 bus.Send(new ProcessOrder()
                 {
                     OrderId = Guid.NewGuid(),
-                    Items = new List<string>()
-                    {
-                        "Cat",
-                        "Banana",
-                        "Milk"
-                    }
+                    
                 });
             Console.WriteLine("\r\nPress '1' to send an NSB message\r\n");
         }

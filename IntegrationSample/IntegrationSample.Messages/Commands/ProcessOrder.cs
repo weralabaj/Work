@@ -6,6 +6,6 @@ namespace IntegrationSample.Messages.Commands
     public class ProcessOrder
     {
         public Guid OrderId { get; set; }
-        public List<string> Items { get; set; }
+        public int  ProductId { get; set; }
     }
 }
